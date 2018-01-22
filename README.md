@@ -9,13 +9,13 @@
 ### Lower API
 
 ### Higher API
--tflearn
--tf.layer
--tf.contrib.laysers
--tf.contrib.slim
--tf.contrib.learn
--keras
--PrettyTensor
+- tflearn
+- tf.layer
+- tf.contrib.laysers
+- tf.contrib.slim
+- tf.contrib.learn
+- keras
+- PrettyTensor
 
 ### 理论
 - deep learning 如何做回归
