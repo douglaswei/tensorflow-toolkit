@@ -12,7 +12,7 @@
 2. tensor board
 3. parameters
 
-[code](./LowerAPI/1.1-mnist-cnn.ipynb)
+[code](LowerAPI/1.1_mnist_cnn.ipynb)
 
 #### random_normal vs truncated_normal
 ```
@@ -29,7 +29,7 @@
 - Saver and Model
 
 [官方文档](https://www.tensorflow.org/programmers_guide/saved_model)
-[code](./LowerAPI/1.2-saver-model.ipynb)
+[code](LowerAPI/1.2_saver_model.ipynb)
 
 ```
 Estimator 会自动保存变量;
