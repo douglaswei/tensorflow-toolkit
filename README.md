@@ -32,14 +32,15 @@
 [code](LowerAPI/1.2_saver_model.ipynb)
 
 ```
-Estimator 会自动保存变量;
+Estimator 会自动保存变量, Estimator小节中完善
 Saver 提供save、restore方法来保存、加载Graph(graph的概念是:多个运算之间的依赖关系)
 tf.train.Saver() 默认存储graph中的所有变量，每个变量存储的name是变量创建时赋予的name
 
-
 ```
 
-- run the model as service
+#### Estimator（High-Level API）
+[官方文档](https://www.tensorflow.org/programmers_guide/estimators)
+[code]
 
 
 ##### distributed TensorFlow(TODO)
@@ -78,6 +79,9 @@ tf.train.Saver() 默认存储graph中的所有变量，每个变量存储的name
 
 ### 理论
 - deep learning 如何做回归
+```angular2html
+tf.estimator.DNNLinearCombinedClassifier
+```
 - deep learning & reinforcement learning
 - deep dream
 - Dropout
