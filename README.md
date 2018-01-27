@@ -40,13 +40,18 @@ tf.train.Saver() 默认存储graph中的所有变量，每个变量存储的name
 
 #### Estimator（High-Level API）
 [官方文档](https://www.tensorflow.org/programmers_guide/estimators)
-[code]
+[code](./LowerAPI/1.3_estimator.ipynb)
+[基于tf.saved_model.builder.SavedModelBuilder存储model、定义接口，run as service](https://github.com/tensorflow/serving/blob/master/tensorflow_serving/example/mnist_saved_model.py)
+源码部分：
+1. tf.estimator.*
+2. tf.contrib.estimator.*
 
 
 ##### distributed TensorFlow(TODO)
 [官方文档](https://www.tensorflow.org/deploy/distributed)
   
-
+#### 数据读取
+[中文文档](http://www.tensorfly.cn/tfdoc/how_tos/reading_data.html)
 5. ensemble-运行多轮训练，尝试不同的训练效果，最后多个模型共同决策，好像boostrap/bagging
 6. embedding
 7. multi-gpu
@@ -56,11 +61,15 @@ tf.train.Saver() 默认存储graph中的所有变量，每个变量存储的name
 11. transfer learning 中trainable参数，前几层网络结构&参数不变，后面结构|参数都可以改变，实现的技巧
 12. tfRecords & datasets
 13. metadata
-14. balboa_scope(activation_fn = tf.nn.relu)
+14. balba_scope(activation_fn = tf.nn.relu)
 15. Inception model project的使用，以及bottle net 的使用（transfer learning）
 16. sklearn.decompostion vs sklearn.manifold.TSNE
 17. 不同分类之间的学习率，sklearn.utils.class_weight.compute_class_weight
 18. session.run返回值是啥？
+
+##### distributed TensorFlow(TODO)
+[官方文档](https://www.tensorflow.org/deploy/distributed)
+
 
 ### Higher API
 - tflearn
